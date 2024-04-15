@@ -1,0 +1,12 @@
+[package]
+name = "rust-server"
+version = "0.1.0"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
+async-trait = "0.1.80"
+strum = "0.23.0"
+strum_macros = "0.23.0"

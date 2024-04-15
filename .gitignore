@@ -1,0 +1,30 @@
+# Cargo generated files
+/target/
+
+# Editor/IDE specific files
+.vscode/
+
+# Ignore build artifacts
+Cargo.lock
+*.rs.bk
+
+# Ignore hidden files
+.*
+
+# Ignore any compiled binaries
+*.exe
+*.exe.debug
+*.exe.stackdump
+*.dll
+*.so
+*.dylib
+*.rlib
+*.dSYM/
+
+# Ignore generated documentation
+/doc/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
